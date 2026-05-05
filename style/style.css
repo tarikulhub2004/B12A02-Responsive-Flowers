@@ -248,6 +248,9 @@ a {
 }
 /* mobile device */
 @media screen and (max-width: 576px) {
+    *{
+        margin: 0 5px;
+    }
     .about-sl, .about-sl, .home-l{
         display: none;
     }
@@ -263,5 +266,13 @@ a {
     }
     .badge{
         display: none;
+    }
+    .colorful-bunch input{
+        width: 321px;
+    }
+    .btn-s{
+        width: 100px;
+        padding-left: 12px;
+        padding-right: 12px;
     }
 }
