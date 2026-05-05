@@ -270,6 +270,10 @@ a {
     .colorful-bunch input{
         width: 321px;
     }
+    .colorful-title{
+        font-weight: bold;
+        font-size: 1.25rem;
+    }
     .btn-s{
         width: 100px;
         padding-left: 12px;
