@@ -27,12 +27,14 @@ main {
     margin: 0;
     padding: 0;
 }
-.flex{
+
+.flex {
     display: flex;
 }
+
 /* header style */
 
-.banner-img{
+.banner-img {
     width: 100%;
 }
 
@@ -89,7 +91,8 @@ a {
 }
 
 .header-conatin-p,
-.section-1-p, .dark-2 {
+.section-1-p,
+.dark-2 {
     font-weight: 400;
     font-size: 1.32rem;
     color: rgba(0, 0, 0, 0.5);
@@ -119,7 +122,7 @@ a {
 .card {
     /* max-width: 270px; */
     text-align: center;
-    
+
 }
 
 .card-p {
@@ -133,6 +136,7 @@ a {
     font-size: 1.3rem;
     margin-top: 20px;
 }
+
 /* .card img{
     width: auto;
 } */
@@ -148,52 +152,60 @@ a {
     color: white;
     margin-top: 30px;
 }
+
 /* Plants lover style */
 
-.plants-lover{
+.plants-lover {
     margin-top: 83px;
 }
-.plants-h{
+
+.plants-h {
     font-weight: bold;
     font-size: 3.25rem;
     margin-top: 20px;
 }
-.badge{
+
+.badge {
     display: flex;
     justify-content: center;
     position: relative;
 }
-.badge-img{
+
+.badge-img {
     width: 286px;
     margin-bottom: -150px;
     margin-left: -150px;
 }
-.plants-contain{
+
+.plants-contain {
     max-width: 540px;
     margin-left: 60px;
 }
-.top-m-20{
+
+.top-m-20 {
     margin-top: 20px;
 }
 
 
 /* colorful-bunch */
-.colorful-bunch{
+.colorful-bunch {
     background: url('../assets/news-letter-bg.png');
-   height: 533px;
-   max-width: 1440px;
-   margin: 50px auto;
-   display: flex;
-   text-align: center;
-   justify-content: center;
-   align-items: center;
+    height: 533px;
+    max-width: 1440px;
+    margin: 50px auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 
 }
-.colorful-bunch input{
+
+.colorful-bunch input {
     width: 580px;
     height: 50px;
 }
-.btn-s{
+
+.btn-s {
     width: 270px;
     height: 50px;
     padding: 17px 53px;
@@ -204,17 +216,20 @@ a {
     font-size: 1rem;
     margin-left: -1px;
 }
-.colorful-title{
+
+.colorful-title {
     color: white;
     font-weight: bold;
     font-size: 3.1rem;
     margin-bottom: 25px;
 }
-.alin-center{
+
+.alin-center {
     display: flex;
     align-items: center;
 }
-.colorful-bunch input{
+
+.colorful-bunch input {
     font-weight: 400;
     font-weight: 1rem;
     color: rgba(0, 0, 0, 0.5);
@@ -223,117 +238,165 @@ a {
 }
 
 /* footer-contain sty;e */
-.footer{
+.footer {
     max-width: 1140px;
     display: flex;
     margin: 50px auto;
-    column-gap: 110px;    
+    column-gap: 110px;
 }
-.footer-contain{
+
+.footer-contain {
     width: 360px;
 }
-.footer ul{
+
+.footer ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 32px;
 }
-.footer li{
+
+.footer li {
     list-style: none;
 }
-.icon img{
+
+.icon img {
     margin-left: 30px;
 }
-.footer a{
+
+.footer a {
     color: rgba(0, 0, 0, 0.5);
 }
 
 /* discount-box-1 */
 
-.discount{
+.discount {
     margin: 50px auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 15px;
 }
-.left{
+
+.left {
     display: grid;
     gap: 15px;
 }
-.discount img{
+
+.discount img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
-.small{
+
+.small {
     height: 200.5px;
 }
-.big{
+
+.big {
     height: 423px;
 }
+
 .discount img {
     /* color: rgba(0,0,0,0.3); */
 }
-.overlay{
+
+.overlay {
     position: relative;
     text-align: center;
     bottom: 55%;
     color: white;
 }
-.small h{
+
+.small h {
     font-weight: bold;
     font-size: 1.5rem;
 }
-.small a{
+
+.small a {
     font-weight: 400;
     font-size: 1rem;
     text-decoration: underline;
     color: white;
 }
-.big-h{
+
+.big-h {
     font-weight: bold;
     font-size: 2.5rem;
 }
-.big-a{
+
+.big-a {
     font-weight: 400;
     font-size: 1.7rem;
     text-decoration: underline;
     color: white;
 }
-.discount img{
+
+.discount img {
     border-radius: 10px;
 }
+
 /* mobile device */
 @media screen and (max-width: 576px) {
-    *{
+    * {
         margin: 0 5px;
     }
-    .about-sl, .about-sl, .home-l{
+
+    .about-sl,
+    .about-sl,
+    .home-l {
         display: none;
     }
-    .card-box, .footer ul{
+
+    .card-box,
+    .discount,
+    .footer ul {
         grid-template-columns: repeat(1, 1fr);
     }
+
     .header-contain-box {
         flex-direction: column-reverse;
         gap: 50px;
     }
-    .flex, .footer{
+
+    .flex,
+    .footer {
         flex-direction: column;
     }
-    .badge{
+
+    .badge {
         display: none;
     }
-    .colorful-bunch input{
+
+    .colorful-bunch input {
         width: 321px;
     }
-    .colorful-title{
+
+    .colorful-title {
         font-weight: bold;
         font-size: 1.25rem;
     }
-    .btn-s{
+
+    .btn-s {
         width: 100px;
         padding-left: 12px;
         padding-right: 12px;
+    }
+
+    .big img {
+        height: 50%;
+    }
+
+    .big .overlay {
+        bottom: 35%;
+    }
+
+    .big-h {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    big-a {
+        font-weight: 400;
+        font-size: 1rem;
     }
 }
